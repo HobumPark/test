@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+  <div class="list-box">
+    <h1>To Do List</h1>
+
+    <div class="write-box">
+      <input type="text" class="text-basic">
+      <button type="button" id="btnAdd">추가</button>
+    </div>
+
+    <table class="list-table">
+      <colgroup>
+        <col width="10%">
+        <col width="90%">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>check</th>
+          <th>To do List</th>
+        </tr>
+      </thead>
+      <tbody id="listBody">
+        
+      </tbody>
+    </table>
+
+    <div class="btn-area">
+      <button type="button" id="DeleteSel">선택 삭제</button>
+      <button type="button" id="btnDelLast">마지막 항목 삭제</button>
+      <button type="button" id="btnDelAll">전체 삭제</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
